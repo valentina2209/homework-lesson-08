@@ -1,0 +1,98 @@
+@import url(reset.css);
+body {
+    font-family: 'Coiny';
+    line-height: 1.2;
+    font-weight: 500;
+    font-size: 23px;
+    background-image: url(../img/cat.avif); 
+    background-size: 300px;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    overflow: clip;
+    min-height: 100%;
+}
+.container {
+    max-width: 1130px;
+    margin: 0 auto;
+    padding: 0px 15px;
+}
+.img-container {
+    padding: 30px;
+    background-color: rgba(251, 210, 177, 0.923);
+    box-shadow: 0px 0px 30px 7px black;
+}
+
+h1 {
+    
+    font-size: 45px;
+    text-shadow: 2px 2px 2px #000, 4px 4px 4px #a93d3d;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
+p {
+    font-family: 'Open Sans';
+    font-weight: bold;
+}
+
+.text {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+img {
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.items > p {
+    display: inline-block;
+    margin-left: 20px;
+    margin-bottom: 30px;
+}
+
+.img-icons {
+    width: 40px;
+    height: 40px;
+}
+
+.list .items:last-child > p {
+  margin-bottom: 0;
+}
+
+.list li:nth-child(odd) p {
+  color: #6c4fdc;
+}
+
+.list li:nth-child(even) p {
+  color: #cd64af;
+}
+
+.items:hover p {
+  background-color: rgb(235, 191, 191);
+  text-decoration: underline;
+  cursor: pointer;
+}
+.list {
+    margin-bottom: 30px;
+}
+
+.img-man{
+    border-radius: 150px 0px;
+}
+
+.text-man {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.footer-text {
+    font-size: 45px;
+    text-shadow: 2px 2px 2px #000, 4px 4px 4px #a93d3d;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+}
